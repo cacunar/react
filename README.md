@@ -23,7 +23,7 @@ Para instalar y ejecutar este proyecto localmente, necesitarás tener instalado 
 
 ```bash
 git clone https://github.com/cacunar/react
-cd /introduccion_react/adopta_un_perrito
+cd introduccion_react/adopta_un_perrito
 ```
 
 2. Instala las dependecias

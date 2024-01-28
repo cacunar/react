@@ -1,0 +1,100 @@
+/* General Styles */
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Background Color */
+  .background-color {
+    min-height: 100vh;
+    background-color: #130116; /* Light green background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  /* Registration Card Style */
+  .registration-container {
+    background-color: #ffffff;
+    border-radius: 20px;
+    padding: 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+  }
+  
+  /* Social Buttons Style */
+  .social-button {
+    background-color: #eff2f7; /* Light grey background */
+    border: none;
+    border-radius: 50%;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    cursor: pointer;
+    display: inline-block;
+    color: #495057; /* Default icon color */
+    font-size: 2rem; /* Adjusted font size for icons */
+  }
+  
+  /* No additional styles for hover are needed since it's not specified in the image */
+  
+  /* Form Input Style */
+  .form-input {
+    width: calc(100% - 1rem); /* Subtracting padding */
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    font-size: 1rem;
+  }
+  
+  /* Submit Button Style */
+  .submit-button {
+    width: calc(100% - 1rem); /* Subtracting padding */
+    background-color: #4CAF50; /* Green background */
+    color: white;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  .submit-button:hover {
+    opacity: 0.9;
+  }
+  
+  /* Alert Style */
+  .alert {
+    display: none; /* Initially hidden */
+    padding: 0.5rem;
+    margin-top: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  .alert-show {
+    display: block; /* Show alert when needed */
+  }
+  
+  .alert-success {
+    color: #155724;
+    background-color: #d4edda;
+    border-color: #c3e6cb;
+  }
+  
+  .alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+  }
+  
+  /* Specific Style for Alert Text */
+  .alert-text {
+    margin: 0;
+  }
+  

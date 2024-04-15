@@ -1,0 +1,39 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+.app {
+  text-align: center;
+  color: white;
+}
+
+.header {
+  background-color: #ed1d24; 
+  padding: 20px 0;
+}
+
+.main-content {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  border-radius: 8px;
+  margin: 20px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.container {
+  padding-bottom: 60px;
+}
+
+.footer {
+  background-color: #404040;
+  color: white;
+  padding: 10px 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 50px; 
+}

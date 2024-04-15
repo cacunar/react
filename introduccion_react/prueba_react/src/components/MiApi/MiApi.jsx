@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import Buscador from "./Buscador/Buscador";
+import Buscador from "../Buscador/Buscador";
 import "./MiApi.css";
 
 const FetchData = () => {

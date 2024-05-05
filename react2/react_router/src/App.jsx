@@ -11,7 +11,7 @@ function App() {
       <Navigation />
       <Routes>
         <Route 
-          path="/"
+          path="/home"
           element={<Homepage />}
         />
         <Route 

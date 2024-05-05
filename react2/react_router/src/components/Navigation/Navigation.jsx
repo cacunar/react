@@ -10,7 +10,7 @@ const Navigation = () => {
         <Container>
           <Nav className="me-auto">
             <Nav.Item>
-              <Link to="/" className="nav-link text-white">
+              <Link to="/home" className="nav-link text-white">
                 <BsFillHouseDoorFill className="me-2" />Home
               </Link>
             </Nav.Item>
@@ -20,7 +20,7 @@ const Navigation = () => {
               </Link>
             </Nav.Item>
           </Nav>
-          <Navbar.Brand href="/" className='ms-auto text-white'>
+          <Navbar.Brand href="/home" className='ms-auto text-white'>
             Happy Cake 🍰
           </Navbar.Brand>
         </Container>

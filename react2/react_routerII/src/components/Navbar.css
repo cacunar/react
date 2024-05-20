@@ -1,0 +1,11 @@
+ a#home, a#pokemones {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: white;
+  }
+
+a#home.active, a#pokemones.active {
+    color: red;
+  }

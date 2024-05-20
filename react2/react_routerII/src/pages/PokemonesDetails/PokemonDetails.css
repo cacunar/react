@@ -1,0 +1,43 @@
+.pokemon-detail {
+  text-align: center;
+  margin: 20px;
+  padding: 4rem;
+}
+
+.pokemon-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.pokemon-container img {
+  width: 200px;
+  height: auto;
+  margin-right: 20px;
+}
+
+.pokemon-stats {
+  text-align: left;
+}
+
+.pokemon-stats ul {
+  list-style: none;
+  padding: 0;
+}
+
+.pokemon-stats li {
+  font-size: 18px;
+}
+
+.pokemon-stats p {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+#backButton {
+  margin-top: 1rem;
+}

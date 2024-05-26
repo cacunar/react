@@ -1,4 +1,3 @@
-import './App.css'
 import RouterConfig from './router/RouterConfig'
 import PizzaProvider from './context/PizzaContext'
 

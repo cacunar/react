@@ -3,12 +3,6 @@
     padding: 20px;
   }
   
-  .header {
-    background-color: #e3f2fd;
-    padding: 20px;
-    margin-bottom: 20px;
-  }
-  
   .pizza-grid {
     display: flex;
     flex-wrap: wrap;

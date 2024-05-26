@@ -1,0 +1,23 @@
+.header {
+    background-color: #5dade2;
+    padding: 10px 20px;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .header-title {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  .header-cart {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
